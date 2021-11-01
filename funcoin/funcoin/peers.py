@@ -1,6 +1,6 @@
 import asyncio
 import structlog
-import aiohtt
+import aiohttp
 
 class P2PError(Exception):
     pass
